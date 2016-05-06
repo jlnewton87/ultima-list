@@ -1,2 +1,2 @@
 export {environment} from './environment';
-export {UltimaListAppComponent} from './ultima-list.component';
+export {UltimaListApp} from './ultima-list';

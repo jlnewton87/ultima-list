@@ -1,0 +1,1 @@
+export {UltimaHeaderComponent} from './ultima-header.component';

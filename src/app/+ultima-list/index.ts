@@ -1,0 +1,1 @@
+export {UltimaListComponent} from './ultima-list.component';
