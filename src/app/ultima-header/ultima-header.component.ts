@@ -7,7 +7,7 @@ import {HeaderLink} from '../model/index';
   selector: 'ultima-header',
   templateUrl: 'ultima-header.component.html',
   styleUrls: ['ultima-header.component.css'],
-  directives: [],
+  directives: [ROUTER_DIRECTIVES],
   inputs: ['currentLink']
 })
 export class UltimaHeaderComponent {
@@ -15,8 +15,8 @@ export class UltimaHeaderComponent {
 
   }
   links: HeaderLink[] = [
-    new HeaderLink("Home", "/Home"),
-    new HeaderLink("Lists", "/List")
+    new HeaderLink("Home", "/home"),
+    new HeaderLink("Lists", "/list")
   ];
   currentLink(): string {
     return "Home";

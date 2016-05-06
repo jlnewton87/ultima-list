@@ -7,7 +7,7 @@
       <ul class="nav navbar-nav">
         <li
           [class.active]="currentLink() === headerLink.text"
-          *ngFor="#headerLink of links">
+          *ngFor="let headerLink of links">
             <a [routerLink]="[headerLink.link]">{{headerLink.text}}</a>
           </li>
       </ul>
